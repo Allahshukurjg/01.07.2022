@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-container .col-lg-12{
+    background-color: #2d2a6e;
+    padding: 10px;
+}
+
+.header-container .container .row{
+    color: aliceblue;
+    display: flex;
+    margin: 0px 20px;
+}
+
+.header-container .container .row .col-lg-6{
+    display: flex;
+    margin: 0px 20px;
+    color: aliceblue;
+    font-size: 13px;
+    justify-content: flex-end;
+}
+.header-container .container .row .col-lg-6 a{
+    color: aliceblue;
+    margin: 5px 9px;
+}
+
+.header-home .container .row{
+    display: flex;
+    margin: 5px 40px;
+}
+.header-home .container .row .home{
+    display: flex;
+    margin:  15px 60px;
+}
+
+.header-home .container .row .home li{
+    margin: 0 15px;
+}
+
+.header-home .container .row .icon{
+    display: flex;
+    margin: 15px 15px;
+}
+
+
+
+.header-home .container .row span{
+    margin: 10px;
+}
+
+
+.header-home .container .row .search-switcher{
+    background-color: rgb(217, 165, 228);
+}
+.header-home .container .row .header-login{
+    background-color: rgb(221, 200, 142);
+}
+.header-home .container .row .icon-wrapper{
+    background-color: rgb(115, 175, 220);
+}
+.header-home .container .row .topcart{
+    background-color: rgb(216, 182, 137);
+}
+
